@@ -1,0 +1,22 @@
+{
+  "imports": {
+    "std/path": "https://deno.land/std@0.200.0/path/join.ts",
+
+    "oak": "https://deno.land/x/oak@v12.6.1/mod.ts",
+    "oak/response": "https://deno.land/x/oak@v12.6.1/response.ts",
+    "@babel/core": "https://esm.sh/@babel/core@7.22.20",
+
+    "babel-plugin-transform-css-module-import": "https://raw.githubusercontent.com/vveisard/babel-plugin-transform-css-module-import/main/mod.ts",
+    "oak-sst-babel": "https://raw.githubusercontent.com/vveisard/oak-sst-babel/main/mod.ts",
+    "oak-sst-lightningcss": "https://raw.githubusercontent.com/vveisard/oak-sst-lightningcss/main/mod.ts",
+    "oak-sst-html-minifier-terser": "https://raw.githubusercontent.com/vveisard/oak-sst-html-minifier-terser/main/mod.ts",
+
+    "html-minifier-terser": "https://esm.sh/html-minifier-terser@7.2.0",
+    "lightningcss": "npm:lightningcss",
+    "babel-preset-solid": "https://esm.sh/babel-preset-solid@1.7.12",
+    "babel-preset-minify": "https://esm.sh/babel-preset-minify@0.5.2"
+  },
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-sys --allow-env --allow-ffi --allow-run main.ts"
+  }
+}
